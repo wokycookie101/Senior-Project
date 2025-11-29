@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Storyhollow — Sample Story</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="desktop-only">
+
+  <!-- Top nav -->
+  <header class="sticky-top bg-gradient-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="brand-mark"></div>
+        <span class="h5 mb-0">Storyhollow</span>
+      </a>
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <button class="btn btn-outline-light btn-sm">Browse</button>
+        <button class="btn btn-light btn-sm">Upload</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container page-max-width py-5">
+    <!-- Story header -->
+    <section class="mb-4">
+      <h1 class="display-5 text-white">The Hollow Wind</h1>
+      <div class="text-muted mb-2">by <strong>AuthorName</strong> · Fantasy · 8 min read</div>
+      <div class="d-flex gap-3 align-items-center">
+        <button class="icon-btn">❤ <span class="small">256</span></button>
+        <button class="icon-btn">💬 <span class="small">42</span></button>
+        <button class="icon-btn">🎵</button>
+        <button class="icon-btn">🖼️</button>
+      </div>
+    </section>
+
+    <!-- Story content -->
+    <article class="card p-4 mb-5">
+      <div class="card-body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt lacinia, nunc urna
+          fermentum sapien, vel tincidunt sapien justo nec lorem. Curabitur vel sem ut justo tincidunt tincidunt.
+        </p>
+        <p>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse
+          potenti. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+        </p>
+        <p>
+          Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
+          semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+        </p>
+        <p>
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales
+          ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.
+        </p>
+      </div>
+    </article>
+
+    <!-- Comments section -->
+    <section>
+      <h4 class="text-white mb-4">Comments</h4>
+
+      <!-- Comment form -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="commentText" class="form-label">Leave a comment</label>
+              <textarea class="form-control" id="commentText" rows="3" placeholder="Share your thoughts..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gradient">Post Comment</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Sample comments -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <strong>User123</strong>
+            <small class="text-muted">2 hours ago</small>
+          </div>
+          <p class="mt-2 mb-1">This story gave me chills! The atmosphere is so vivid.</p>
+          <button class="icon-btn">❤ <span class="small">12</span></button>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <strong>MoonlitReader</strong>
+            <small class="text-muted">Yesterday</small>
+          </div>
+          <p class="mt-2 mb-1">Loved the pacing and the mystery. Would love to see a sequel!</p>
+          <button class="icon-btn">❤ <span class="small">8</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container d-flex justify-content-between">
+      <div class="small">© Storyhollow</div>
+      <div class="small">Contribute · Guidelines · Licensing</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
