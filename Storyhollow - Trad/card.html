@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Card</title>
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+
+    <style>
+      img {
+        max-width: 100%;
+      }
+
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 25px;
+        background-color: white;
+        padding: 25px;
+      }
+      p {
+        text-family: arial;
+      }
+
+      button {
+        background-color: white;
+        text-decoration: none;
+        width: 50px;
+        height: 40px;
+        border-style: solid black;
+      }
+
+      .viewButton {
+        border-radius: 10px 0px 0px 10px;
+      }
+
+      .editButton {
+        border-radius: 0px 10px 10px 0px;
+      }
+
+      .time {
+        float: right;
+        color: #888;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" />
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </p>
+      <footer>
+        <button class="viewButton" type="button">View</button>
+        <button class="editButton" type="button">Edit</button>
+        <p class="time">
+          <b>10 mins</b>
+        </p>
+      </footer>
+    </article>
+  </body>
+</html>
